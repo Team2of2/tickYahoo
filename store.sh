@@ -12,4 +12,4 @@ else if [ $sys == 'Darwin' ]; then
 fi
 mv tick.bin tick$format".bin"
 
-mpack -s "tick data "$format tick$format".bin" frederic.deleze@gmail.com,zhamilya.assilbekova@gmail.com
+mpack -s "tick data "$format tick$format".bin" $1
